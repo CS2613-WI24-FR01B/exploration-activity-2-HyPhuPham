@@ -23,6 +23,7 @@ This program simulated a system to manage employees' personal information and sa
 
 * On the program (JavaScript)- we import them using the command line:
 
+      const fs = require('fs');
       const csv = require('csv-parser');
   
 ### Some of the basic widgets
@@ -32,20 +33,17 @@ This program simulated a system to manage employees' personal information and sa
 * CSV to JSON Converter: Create a convert function to paste CSV data into a text area.
 
 ### Syntax
-      const fs = require('fs');
-      const csv = require('csv-parser');
-      
+
       let data = [];
       
       fs.createReadStream('data.csv')
         .pipe(csv())
         .on('data', (row) => {
-          // Process each row of data
           data.push(row);
         })
         .on('end', () => {
           console.log(data);
         });
 
- 
+ - We use the 
 
