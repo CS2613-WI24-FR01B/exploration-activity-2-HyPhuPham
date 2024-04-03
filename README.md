@@ -17,8 +17,10 @@ This program simulated a system to manage employees' personal information and sa
 - **Developer**: David Worms, a software engineer
 
 ### To use
-* On the terminal - we first use the command line:
-  npm install csv-parse
+* On the terminal - we first use the command line :
+* On Linux
+            npm install csv-parser
+  
 
  
 
