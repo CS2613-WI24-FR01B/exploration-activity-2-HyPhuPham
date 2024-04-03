@@ -2,13 +2,13 @@
 # EA2
 
 ## EMPLOYEE TRACKING SYSTEM
-This program simulated a system to manage the personal information and salary of employees in a company and print them as a manifest.
+This program simulated a system to manage employees' personal information and salary in a company and print them as a manifest.
 
-**- Programming language use:** Javascript
-**- Package use:** csv-parser
-**- Reason:** This package provides a helper method for programmers to traverse and gain data in the .csv file instead of building another program.
+- **Programming language use:** Javascript
+- **Package use:** csv-parser
+- **Reason:** This package provides a helper method for programmers to traverse and gain data in the .csv file instead of building another program.
 
-* - Learning this package supports me in forming an idea in data science and how to work with data from a .csv file besides a normal text file.
-* - Using csv-parser in Javascript language which is similar to Java brings me experiences in both languages and helps me in working with data.
+- * Learning this package supports me in forming an idea in data science and how to work with data from a .csv file besides a normal text file.
+- * Using csv-parser in Javascript language similar to Java brings me experience in both languages and helps me work with data.
  
 
