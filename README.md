@@ -81,8 +81,8 @@ This program simulated a system to manage employees' personal information and sa
 ![running](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/bfd3c399-d466-4a9a-86f2-1b4ace5c7e9d)
 
 # References
-[1] https://www.npmjs.com/package/csv-parse
-[2] https://csv.js.org/parse/
+- [1] https://www.npmjs.com/package/csv-parse
+- [2] https://csv.js.org/parse/
 
 ## Program Sample Output
 
