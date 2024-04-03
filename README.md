@@ -12,8 +12,13 @@ This program simulated a system to manage employees' personal information and sa
 - Using csv-parser in Javascript language similar to Java brings me experience in both languages and helps me work with data.
 
 ## About the 'csv-parser' package
-**Definition:** The csv-parser is a Node.js package module design to parse CSV data. It allows programmers to easily convert them into JavaScript objects or arrays.
-**Year of release** : 2010
-**Developer**: David Worms, a software enginner
+- **Definition:** The csv-parser is a Node.js package module designed to parse CSV data. It allows programmers to easily convert them into JavaScript objects or arrays.
+- **Year of release** : 2010
+- **Developer**: David Worms, a software engineer
+
+### To use
+* On the terminal - we first use the command line:
+  npm install csv-parse
+
  
 
