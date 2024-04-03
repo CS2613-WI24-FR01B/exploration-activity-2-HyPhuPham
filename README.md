@@ -27,10 +27,10 @@ This program simulated a system to manage employees' personal information and sa
       const csv = require('csv-parser');
   
 ### Some of the basic widgets
-* CSV File Uploader: Allows users to upload CSV files through a file input widget, parse the file, and export data row by row.
-* CSV Data Filter: Create a function where users ability to export data from a web application.
-* CSV Data Importer: Build a widget that allows users to import CSV data into a web application.
-* CSV to JSON Converter: Create a convert function to paste CSV data into a text area.
+* **CSV File Uploader:** Allows users to upload CSV files through a file input widget, parse the file, and export data row by row.
+* **CSV Data Filter:** Create a function where users ability to export data from a web application.
+* **CSV Data Importer:** Build a widget that allows users to import CSV data into a web application.
+* **CSV to JSON Converter:** Create a convert function to paste CSV data into a text area.
 
 ### Syntax (Example)
 - The syntax of the **csv-parser** package is simplify and easy to interact with.
@@ -54,6 +54,25 @@ This program simulated a system to manage employees' personal information and sa
  - After all the rows are processed, the 'end' event is emitted.
  - Finally, log data to the console and display them.
 
+ - In the case we want to export only in a specific column, we can use a for loop.
+ - 
+      let data = [];
+      
+      fs.createReadStream('data.csv')
+        .pipe(csv())
+        .on('data', (row) => {
+          // Process each row of data
+          data.push(row);
+        })
+        .on('end', () => {
+          // Iterate through each row using a for loop and print out the company name
+          for (let i = 0; i < data.length; i++) {
+            console.log(data[i].header);
+          }
+        });
+
+- In this case, the for loop loops through the 'data' array and get the data in each index of that column, distinguished by the header of the column.
+  
 # Note: TO RUN
  * Step 1: Open the terminal
  * Step 2: Traverse to the folder where the code at (use: "cd <folder_name>")
