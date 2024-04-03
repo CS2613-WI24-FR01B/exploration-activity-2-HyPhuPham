@@ -45,5 +45,10 @@ This program simulated a system to manage employees' personal information and sa
           console.log(data);
         });
 
- - We use the 
+ - We use fs.createReadStream('data.csv')  to read the CSV file.
+ - In the parameter, we can use any file name (CSV file).
+ - The 'csv-parser' now start to parse through the assigned CSV file by each row and emits a 'data' event with the parsed row.
+ - 
+ - 
+ - 
 
