@@ -32,7 +32,8 @@ This program simulated a system to manage employees' personal information and sa
 * CSV Data Importer: Build a widget that allows users to import CSV data into a web application.
 * CSV to JSON Converter: Create a convert function to paste CSV data into a text area.
 
-### Syntax
+### Syntax (Example)
+- The syntax of the **csv-parser** package is simplify and easy to interact with.
 
       let data = [];
       
@@ -52,5 +53,10 @@ This program simulated a system to manage employees' personal information and sa
  - Then we push each row in the 'data' array.
  - After all the rows are processed, the 'end' event is emitted.
  - Finally, log data to the console and display them.
+
+# Note: TO RUN
+ * Step 1: Open the terminal
+ * Step 2: Traverse to the folder where the code at (use: "cd <folder_name>")
+ * Step 3: Use the command line: node <file_name>.js
 
 
