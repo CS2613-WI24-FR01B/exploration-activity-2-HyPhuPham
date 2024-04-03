@@ -18,10 +18,18 @@ This program simulated a system to manage employees' personal information and sa
 
 ### To use
 * On the terminal - we first use the command line :
-* On Linux
 
       npm install csv-parser
+
+* On the program (JavaScript)- we import them using the command line:
+
+      const csv = require('csv-parser');
   
+### Some of the basic widgets
+* CSV File Uploader: Allows users to upload CSV files through a file input widget, parse the file, and export data row by row.
+* CSV Data Filter: Create a function where users ability to export data from a web application.
+* CSV Data Importer: Build a widget that allows users to import CSV data into a web application.
+* CSV to JSON converter: Create a convert function to paste CSV data into a text area.
 
  
 
