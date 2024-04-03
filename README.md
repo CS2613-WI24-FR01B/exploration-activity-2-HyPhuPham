@@ -55,7 +55,7 @@ This program simulated a system to manage employees' personal information and sa
  - Finally, log data to the console and display them.
 
  - In the case we want to export only in a specific column, we can use a for loop.
- - 
+   
       let data = [];
       
       fs.createReadStream('data.csv')
