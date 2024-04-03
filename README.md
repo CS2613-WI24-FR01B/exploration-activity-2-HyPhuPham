@@ -56,20 +56,20 @@ This program simulated a system to manage employees' personal information and sa
 
  - In the case we want to export only in a specific column, we can use a for loop.
    
-            let data = [];
-            
-            fs.createReadStream('data.csv')
-              .pipe(csv())
-              .on('data', (row) => {
-                // Process each row of data
-                data.push(row);
-              })
-              .on('end', () => {
-                // Iterate through each row using a for loop and print out the company name
-                for (let i = 0; i < data.length; i++) {
-                  console.log(data[i].header);
-                }
-              });
+      let data = [];
+      
+      fs.createReadStream('data.csv')
+        .pipe(csv())
+        .on('data', (row) => {
+          // Process each row of data
+          data.push(row);
+        })
+        .on('end', () => {
+          // Iterate through each row using a for loop and print out the company name
+          for (let i = 0; i < data.length; i++) {
+            console.log(data[i].header);
+          }
+        });
 
 - In this case, the for loop loops through the 'data' array and get the data in each index of that column, distinguished by the header of the column.
   
