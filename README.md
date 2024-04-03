@@ -78,4 +78,17 @@ This program simulated a system to manage employees' personal information and sa
  * Step 2: Traverse to the folder where the code at (use: "cd <folder_name>")
  * Step 3: Use the command line: node <file_name>.js
 
+# References
+[1] https://www.npmjs.com/package/csv-parse
+[2] https://csv.js.org/parse/
+
+# Program Sample Output
+
+## Menu options
+![Menu](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/b2c2e0f2-0585-4a46-a18f-7a4f580bb470)
+
+## Option 1 - Get the personal information of specific employee
+
+![activity1](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/9dbd7fbd-f12d-4c17-b6eb-9b5071e45d89)
+
 
