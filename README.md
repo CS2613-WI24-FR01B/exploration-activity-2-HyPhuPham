@@ -19,7 +19,8 @@ This program simulated a system to manage employees' personal information and sa
 ### To use
 * On the terminal - we first use the command line :
 * On Linux
-            npm install csv-parser
+
+              npm install csv-parser
   
 
  
