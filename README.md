@@ -29,7 +29,23 @@ This program simulated a system to manage employees' personal information and sa
 * CSV File Uploader: Allows users to upload CSV files through a file input widget, parse the file, and export data row by row.
 * CSV Data Filter: Create a function where users ability to export data from a web application.
 * CSV Data Importer: Build a widget that allows users to import CSV data into a web application.
-* CSV to JSON converter: Create a convert function to paste CSV data into a text area.
+* CSV to JSON Converter: Create a convert function to paste CSV data into a text area.
+
+### Syntax
+            const fs = require('fs');
+            const csv = require('csv-parser');
+            
+            let data = [];
+            
+            fs.createReadStream('data.csv')
+              .pipe(csv())
+              .on('data', (row) => {
+                // Process each row of data
+                data.push(row);
+              })
+              .on('end', () => {
+                console.log(data);
+              });
 
  
 
