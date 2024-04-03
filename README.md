@@ -14,7 +14,7 @@ This program simulated a system to manage employees' personal information and sa
 ## About the 'csv-parser' package
 - **Definition:** The csv-parser is a Node.js package module designed to parse CSV data. It allows programmers to easily convert them into JavaScript objects or arrays.
 - **Year of release** : 2010
-- **Developer**: David Worms, a software engineer
+- **Developer**: David Worms, a software engineer who contributes a lot in developing libraries for JavaScript.
 
 ### To use
 * On the terminal - we first use the command line :
@@ -45,10 +45,12 @@ This program simulated a system to manage employees' personal information and sa
           console.log(data);
         });
 
+ - First, we initialize a 'data' array.
  - We use fs.createReadStream('data.csv')  to read the CSV file.
  - In the parameter, we can use any file name (CSV file).
- - The 'csv-parser' now start to parse through the assigned CSV file by each row and emits a 'data' event with the parsed row.
- - 
- - 
- - 
+ - The 'csv-parser' now starts to parse through the assigned CSV file by each row and emits a 'data' event with the parsed row.
+ - Then we push each row in the 'data' array.
+ - After all the rows are processed, the 'end' event is emitted.
+ - Finally, log data to the console and display them.
+
 
