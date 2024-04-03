@@ -77,14 +77,16 @@ This program simulated a system to manage employees' personal information and sa
  * Step 1: Open the terminal
  * Step 2: Traverse to the folder where the code at (use: "cd <folder_name>")
  * Step 3: Use the command line: node <file_name>.js
+   
+![running](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/bfd3c399-d466-4a9a-86f2-1b4ace5c7e9d)
 
 # References
 [1] https://www.npmjs.com/package/csv-parse
 [2] https://csv.js.org/parse/
 
-# Program Sample Output
+## Program Sample Output
 
-## Menu options - Greeting lines and asking for the CSV file need to process.
+# Menu options - Greeting lines and asking for the CSV file need to process.
 
 ![Menu](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/b2c2e0f2-0585-4a46-a18f-7a4f580bb470)
 
@@ -92,7 +94,7 @@ This program simulated a system to manage employees' personal information and sa
 
 ![activity1](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/9dbd7fbd-f12d-4c17-b6eb-9b5071e45d89)
 
-## Option 2 - Calculate the total salary of each employee (choose to print the manifest file or not).
+# Option 2 - Calculate the total salary of each employee (choose to print the manifest file or not).
 
 ![activity2-yes](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/ab87f413-dbc5-4f1a-b46e-6d20da9a3019)
 
@@ -100,11 +102,11 @@ This program simulated a system to manage employees' personal information and sa
 
 ![Output-file](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/db541856-4781-48d7-b1aa-e02d206867ac)
 
-## Option 3 - Return the manifest of employees' data.
+# Option 3 - Return the manifest of employees' data.
 
 ![activity3](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/5eb3d736-76eb-4cf3-b15b-40f6d92350fe)
 
-## Option 4 - Exit the program.
+# Option 4 - Exit the program.
 
 ![activity4](https://github.com/CS2613-WI24-FR01B/exploration-activity-2-HyPhuPham/assets/114414645/1f2d68ab-f6f7-4322-b1d2-bbdca3732f0a)
 
