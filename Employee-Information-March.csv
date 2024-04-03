@@ -1,0 +1,21 @@
+Name,Id,Position,Hourly_rate,Total_time,Late_time,Email,Phone_number,Age,Year_Active
+Josh-Amanda,135123,Project manager,30,42,0,josh.amanda@gmail.com,123-456-7890,35,2020
+Robert-Smith,135124,Assistant manager,28,40,2,robert.smith@gmail.com,234-567-8901,40,2018
+Katarina-Smith,135125,Developer,25,40.5,3,katarina.smith@gmail.com,345-678-9012,28,2010
+Michael-Goeth,135225,Developer,25,35,1,michael.goeth@gmail.com,456-789-0123,32,2021
+Anthony-Markim,135226,Cyber security,24,38,1,anthony.markim@gmail.com,567-890-1234,30,2021
+George-Duamel,135324,Developer,26,35,0,george.duamel@gmail.com,678-901-2345,29,2022
+Jeffrey-Dunn,135319,Digital designer,23,43,0,jeffrey.dunn@gmail.com,789-012-3456,37,2017
+Roger-Haines,135290,Digital designer,22,42,0,roger.haines@gmail.com,890-123-4567,33,2023
+Jonathan-Gorman,135190,Software engineer,29,39,0,jonathan.gorman@gmail.com,901-234-5678,31,2021
+Nathaniel-Paul,135110,Software engineer,29,35,1,nathaniel.paul@gmail.com,012-345-6789,27,2020
+Emily-Watson,135326,Graphic Designer,20,40,0,emily.watson@example.com,123-456-7891,29,2022
+Olivia-Jones,135327,Marketing Specialist,25,37,2,olivia.jones@example.com,234-567-8902,34,2019
+Daniel-Smith,135328,Data Analyst,26,38,1,daniel.smith@example.com,345-678-9013,31,2018
+Sophia-Brown,135329,HR Manager,28,40,0,sophia.brown@example.com,456-789-0124,36,2017
+Ethan-Taylor,135330,Sales Executive,24,42,0,ethan.taylor@example.com,567-890-1235,33,2019
+Chloe-Clark,135331,Content Writer,21,38,2,chloe.clark@example.com,678-901-2346,28,2020
+Mason-Johnson,135332,Accountant,27,40,0,mason.johnson@example.com,789-012-3457,35,2016
+Isabella-Miller,135333,Customer Service,18,40,3,isabella.miller@example.com,890-123-4568,26,2021
+Alexander-Anderson,135334,IT Support ,22,38,1,alexander.anderson@example.com,901-234-5679,30,2018
+Mia-Martinez,135335,Administrative Assistant,19,37,0,mia.martinez@example.com,012-345-6780,27

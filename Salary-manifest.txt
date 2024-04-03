@@ -1,0 +1,23 @@
+=================   =========   ========================   =============   =========   ============
+Name of employees   ID number   Position in company        hours at work   Late time   Total Salary
+=================   =========   ========================   =============   =========   ============
+Josh-Amanda         135123   	Project manager            42 hours        0           $1096.50
+Robert-Smith        135124   	Assistant manager          40 hours        2           $942.65
+Katarina-Smith      135125   	Developer                  40.5 hours      3           $851.91
+Michael-Goeth       135225   	Developer                  35 hours        1           $739.08
+Anthony-Markim      135226   	Cyber security             38 hours        1           $770.52
+George-Duamel       135324   	Developer                  35 hours        0           $773.50
+Jeffrey-Dunn        135319   	Digital designer           43 hours        0           $869.98
+Roger-Haines        135290   	Digital designer           42 hours        0           $804.10
+Jonathan-Gorman     135190   	Software engineer          39 hours        0           $961.35
+Nathaniel-Paul      135110   	Software engineer          35 hours        1           $858.08
+Emily-Watson        135326   	Graphic Designer           40 hours        0           $680.00
+Olivia-Jones        135327   	Marketing Specialist       37 hours        2           $776.90
+Daniel-Smith        135328   	Data Analyst               38 hours        1           $835.13
+Sophia-Brown        135329   	HR Manager                 40 hours        0           $952.00
+Ethan-Taylor        135330   	Sales Executive            42 hours        0           $877.20
+Chloe-Clark         135331   	Content Writer             38 hours        2           $668.95
+Mason-Johnson       135332   	Accountant                 40 hours        0           $918.00
+Isabella-Miller     135333   	Customer Service           40 hours        3           $597.98
+Alexander-Anderson  135334   	IT Support                 38 hours        1           $705.92
+Mia-Martinez        135335   	Administrative Assistant   37 hours        0           $597.55
